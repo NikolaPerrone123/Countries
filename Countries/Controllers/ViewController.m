@@ -30,10 +30,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // Second Commit
     self.centerYConstraintsPoPUp.constant = -500;
     isPresentPopUp = false;
-    
     [self parseUrl];
     [self getData];
     [self checkDevice];
