@@ -13,6 +13,8 @@
 		931542E11FFB9BB600EE173D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931542E01FFB9BB600EE173D /* Assets.xcassets */; };
 		931542E41FFB9BB600EE173D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931542E21FFB9BB600EE173D /* LaunchScreen.storyboard */; };
 		931542E71FFB9BB600EE173D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 931542E61FFB9BB600EE173D /* main.m */; };
+		931542F41FFBAADA00EE173D /* CountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 931542F21FFBAADA00EE173D /* CountryCell.m */; };
+		931542F51FFBAADA00EE173D /* CountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931542F31FFBAADA00EE173D /* CountryCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		931542E31FFB9BB600EE173D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		931542E51FFB9BB600EE173D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		931542E61FFB9BB600EE173D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		931542F11FFBAADA00EE173D /* CountryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryCell.h; sourceTree = "<group>"; };
+		931542F21FFBAADA00EE173D /* CountryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryCell.m; sourceTree = "<group>"; };
+		931542F31FFBAADA00EE173D /* CountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,10 @@
 		931542D61FFB9BB600EE173D /* Countries */ = {
 			isa = PBXGroup;
 			children = (
+				936E8ECB1FFBDA1200C19537 /* Controllers */,
+				931542ED1FFBA99A00EE173D /* Cells */,
 				931542D71FFB9BB600EE173D /* AppDelegate.h */,
 				931542D81FFB9BB600EE173D /* AppDelegate.m */,
-				931542DA1FFB9BB600EE173D /* ViewController.h */,
-				931542DB1FFB9BB600EE173D /* ViewController.m */,
 				931542DD1FFB9BB600EE173D /* Main.storyboard */,
 				931542E01FFB9BB600EE173D /* Assets.xcassets */,
 				931542E21FFB9BB600EE173D /* LaunchScreen.storyboard */,
@@ -69,6 +74,25 @@
 				931542E61FFB9BB600EE173D /* main.m */,
 			);
 			path = Countries;
+			sourceTree = "<group>";
+		};
+		931542ED1FFBA99A00EE173D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				931542F11FFBAADA00EE173D /* CountryCell.h */,
+				931542F21FFBAADA00EE173D /* CountryCell.m */,
+				931542F31FFBAADA00EE173D /* CountryCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		936E8ECB1FFBDA1200C19537 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				931542DA1FFB9BB600EE173D /* ViewController.h */,
+				931542DB1FFB9BB600EE173D /* ViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931542F51FFBAADA00EE173D /* CountryCell.xib in Resources */,
 				931542E41FFB9BB600EE173D /* LaunchScreen.storyboard in Resources */,
 				931542E11FFB9BB600EE173D /* Assets.xcassets in Resources */,
 				931542DF1FFB9BB600EE173D /* Main.storyboard in Resources */,
@@ -142,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931542F41FFBAADA00EE173D /* CountryCell.m in Sources */,
 				931542DC1FFB9BB600EE173D /* ViewController.m in Sources */,
 				931542E71FFB9BB600EE173D /* main.m in Sources */,
 				931542D91FFB9BB600EE173D /* AppDelegate.m in Sources */,
